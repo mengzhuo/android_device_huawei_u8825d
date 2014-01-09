@@ -16,12 +16,12 @@
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.confg.hw_appfsversion=U8825V4_4_SYSIMG \
-    ro.confg.hw_appsbootversion=U8825V4_4_APPSBOOT \
-    ro.confg.hw_appversion=U8825V4_4_KERNEL
+    ro.confg.hw_appfsversion=U8825DV4_4_SYSIMG \
+    ro.confg.hw_appsbootversion=U8825DV4_4_APPSBOOT \
+    ro.confg.hw_appversion=U8825DV4_4_KERNEL
 
 PRODUCT_PROPERTY_OVERRIDES += \
     gsm.version.baseband=1040 \
     rild.libpath=/system/lib/libril-qc-1.so
 
-$(call inherit-product-if-exists, vendor/huawei/u8825/u8825-vendor.mk)
+$(call inherit-product-if-exists, vendor/huawei/u8825d/u8825d-vendor.mk)

@@ -14,13 +14,13 @@
 # limitations under the License.
 #
 
-# Inherit from u8825 device
-$(call inherit-product, device/huawei/u8825/u8825.mk)
+# Inherit from u8825d device
+$(call inherit-product, device/huawei/u8825d/u8825d.mk)
 
 # Inherit u8833 definitions
 $(call inherit-product, device/huawei/u8833/full_u8833.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_u8825
-PRODUCT_DEVICE := u8825
-PRODUCT_MODEL := Ascend G330
+PRODUCT_NAME := full_u8825d
+PRODUCT_DEVICE := u8825d
+PRODUCT_MODEL := Ascend G330D

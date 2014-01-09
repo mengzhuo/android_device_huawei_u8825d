@@ -15,12 +15,12 @@
 #
 
 # Inherit from the proprietary version
--include vendor/huawei/u8825/BoardConfigVendor.mk
+-include vendor/huawei/u8825d/BoardConfigVendor.mk
 
 # Inherit from the u8833 definitions
 -include device/huawei/u8833/BoardConfig.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := u8825
+TARGET_BOOTLOADER_BOARD_NAME := u8825d
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/huawei/u8825/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/huawei/u8825d/bluetooth

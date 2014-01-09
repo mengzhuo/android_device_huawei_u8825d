@@ -21,15 +21,15 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/huawei/u8825/full_u8825.mk)
+$(call inherit-product, device/huawei/u8825d/full_u8825d.mk)
 
 # Correct boot animation size for the screen
 TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
 # Device name
-PRODUCT_NAME := cm_u8825
-PRODUCT_DEVICE := u8825
+PRODUCT_NAME := cm_u8825d
+PRODUCT_DEVICE := u8825d
 
 # CM packages
 PRODUCT_PACKAGES += \
